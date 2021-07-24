@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:just_for_fun_flutter/downloadButtonDemo/main_list.dart';
+import 'package:just_for_fun_flutter/SnackbarDemo/snackbar_demo.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,13 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Just For Fun Flutter',
       theme: ThemeData(brightness: Brightness.dark),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Download button demo'),
-          centerTitle: true,
-        ),
-        body: MainList(),
-      ),
+      home: SnackBarDemo(),
     );
   }
 }
